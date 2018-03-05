@@ -188,7 +188,7 @@ header .a:hover, a:visited, a:link, a:active
 		position: relative;
 		display: flex;
 		float: bottom;
-		margin-top: 400px;
+		margin-top: 600px;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
