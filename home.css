@@ -50,7 +50,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-		flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 
 		}
@@ -151,24 +151,23 @@ header .a:hover, a:visited, a:link, a:active
 
 .slider-arrow1 {
 			display: inline-block;
-			align-self: flex-start;
+			align-self: center;
 			cursor: pointer;
 			opacity: 0.7;
-			margin-left: 5%;
+			right: 90%;
 			position: absolute;
-			margin-top: 30%;
 }
 
 .slider-arrow2 {
 			display: inline-block;
-			align-self: flex-end;
-			vertical-align: middle;
+			align-self: center;
+			margin-left: 0%;
 			cursor: pointer;
 			opacity: 0.7;
-			margin-right: 5%;
+			left: 90%;
 			position: absolute;
-			margin-top: 30%;
 }
+
 
 .slider-button {
 			margin-top: 50px;
