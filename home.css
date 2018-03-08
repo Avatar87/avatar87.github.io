@@ -611,7 +611,7 @@ video {
 	top: 120px;
 	cursor: pointer;
 	position: relative;
-	background: transparent url(images/play-video.png);
+	background: transparent url(images/Play-Video.png);
 	border: none;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -650,7 +650,7 @@ video {
 }
 
 .mobile {
-		background-image: url(images/iphone.jpg);
+		background-image: url(images/iPhone.jpg);
 		background-repeat: no-repeat;
 		background-size: 35%;
 		background-position: 10%;
