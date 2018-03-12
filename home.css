@@ -182,6 +182,19 @@ header .a:hover, a:visited, a:link, a:active
 			border-radius: 2px;
 		}
 
+@keyframes rotatebutton {
+    0%   {transform:rotate(20deg)}
+    25%  {transform:rotate(45deg)}
+    50%  {transform:rotate(85deg)}
+    75%  {transform:rotate(130deg)}
+    100% {transform:rotate(180deg)}
+}
+
+.slider-button:hover {
+  	-webkit-animation: rotatebutton 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: rotatebutton 3s infinite;
+}
+
 .slider-slides {
 		position: relative;
 		display: flex;
@@ -498,6 +511,16 @@ header .a:hover, a:visited, a:link, a:active
 	height: 237px;
 	margin-left: 15px;
 	margin-right: 15px;
+	-moz-transition: all 0.3s;
+ 	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
+}
+
+
+.projects-images img:hover {
+-moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #arrow1 {
@@ -851,6 +874,15 @@ video {
 	margin-right: 17px;
 	margin-left: 17px;
 
+}
+
+.recent-img img:hover {
+	-moz-transform: scale(1.1);
+  	-webkit-transform: scale(1.1);
+  	transform: scale(1.1);
+    -moz-transition: all 0.3s;
+ 	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
 }
 
 #recentimg2 {
