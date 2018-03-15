@@ -1296,7 +1296,8 @@ footer {
 		header {
 		flex-direction: column;
 		justify-content: center;
-		max-width: 50%;
+		max-width: 40%;
+			align-self: center;
 	}
 	.menuitem {
 		display: block;
