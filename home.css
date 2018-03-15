@@ -1297,6 +1297,7 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 		max-width: 10%;
+			box-sizing: content-box;
 			align-self: center;
 	}
 	.menuitem {
