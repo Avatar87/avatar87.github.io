@@ -1430,5 +1430,8 @@ footer {
 	.slider-arrow2 {
 		left: 80%;
 	}
-
+	.block1 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }
