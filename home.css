@@ -657,9 +657,10 @@ video {
 	border: none;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
 	max-width: 100px;
 	height: 100px;
-	z-index: 100;
+	z-index: 200;
 }
 
 
@@ -1430,8 +1431,11 @@ footer {
 	.slider-arrow2 {
 		left: 80%;
 	}
-	.block1 {
-		padding-left: 0px;
-		padding-right: 0px;
+}
+
+@media (max-width: 380px) {
+	header {
+		max-width: 60%;
+		align-self: left;
 	}
 }
